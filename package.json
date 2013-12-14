@@ -1,12 +1,11 @@
 {
-  "name": "application-name",
+  "name": "todoapp-expressgb",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
-    "express": "3.4.3",
-    "jade": "*"
+    "express": "3.3.5",
+    "jade": "*",
+    "less-middleware": "~0.1.12",
+    "mongoskin": "~0.6.0"
   }
 }
